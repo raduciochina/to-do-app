@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>To do App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>My Tasks</h1>
+    <ul id="myTasks"></ul>
+    <p id="info"></p>
+    <h1>Add a Task</h1>
+    <form>
+        <input type="text" placeholder="Task Name" id="taskName">
+        <select name="status" id="status">
+            <option value="not started yet">Not started yet</option>
+            <option value="inProgress">In progress</option>
+            <option value="done">Done</option>
+        </select>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+</body>
+<script src='main.js'></script>
+</html>
